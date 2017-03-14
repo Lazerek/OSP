@@ -1,0 +1,44 @@
+﻿<Window x:Class="OSP.View.PermissionMenuView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OSP.View"
+        xmlns:behaviour="clr-namespace:OSP.Behaviour"
+        xmlns:model="clr-namespace:OSP.Model"
+        mc:Ignorable="d"
+        Title="{Binding WindowTitle}" Height="400" Width="600"
+        DataContext="{Binding PermissionMenuViewModel, Source={StaticResource Locator}}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <ListView Margin="10" Name="CarsList" ItemsSource="{Binding Permissions}" SelectedItem="{Binding SelectedPermission}"
+                      IsSynchronizedWithCurrentItem="True"
+                      model:GridViewSort.AutoSort="True">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Id" DisplayMemberBinding="{Binding Id}" model:GridViewSort.PropertyName="Id"></GridViewColumn>
+                        <GridViewColumn Header="Nazwa Uprawnienia" DisplayMemberBinding="{Binding Name}" model:GridViewSort.PropertyName="Name"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Margin="10,5,10,5" Command="{Binding AddPermissionCommand}" Visibility="{Binding Visibility}">Dodaj Uprawnienie</Button>
+                <Button Margin="10,5,10,5" Command="{Binding EditPermissionCommand}" Visibility="{Binding Visibility}">Edytuj Uprawnienie</Button>
+                <Button Margin="10,5,10,5" Command="{Binding RemovePermissionCommand}" Visibility="{Binding Visibility}">Usuń Uprawnienie</Button>
+
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Margin="10,5,10,5"  behaviour:CloseOnClickBehaviour.IsEnabled="True">Powrót</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,51 @@
+﻿<Window x:Class="OSP.View.FirefighterMenuView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:b="clr-namespace:OSP.Behaviour"
+        xmlns:local="clr-namespace:OSP.View"
+        xmlns:osp="clr-namespace:OSP"
+        xmlns:model="clr-namespace:OSP.Model"
+        mc:Ignorable="d"
+        Title="{Binding WindowTitle}" Height="400" Width="600"
+        DataContext="{Binding FirefighterMenuViewModel, Source={StaticResource Locator}}">
+    <Grid>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="*"></RowDefinition>
+        <RowDefinition Height="40"></RowDefinition>
+         <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <ListView Margin="10" Name="FirefightersList" ItemsSource="{Binding Firefighters}" SelectedItem="{Binding SelectedFirefighter}"
+                      IsSynchronizedWithCurrentItem="True"
+                      model:GridViewSort.AutoSort="True">
+                <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" DisplayMemberBinding="{Binding Id}" model:GridViewSort.PropertyName="Id"></GridViewColumn>
+                    <GridViewColumn Header="Nazwisko" DisplayMemberBinding="{Binding LastName}" model:GridViewSort.PropertyName="LastName"></GridViewColumn>
+                    <GridViewColumn Header="Imie" DisplayMemberBinding="{Binding FirstName}" model:GridViewSort.PropertyName="FirstName"></GridViewColumn>
+                    <GridViewColumn Header="Pesel" DisplayMemberBinding="{Binding Pesel}" model:GridViewSort.PropertyName="Pesel"></GridViewColumn>
+                    <GridViewColumn Header="Data urodzenia" DisplayMemberBinding="{Binding BirthDate}" model:GridViewSort.PropertyName="BirthDate"></GridViewColumn>
+                    <GridViewColumn Header="Data dołączenia" DisplayMemberBinding="{Binding JoinDate}" model:GridViewSort.PropertyName="JoinDate"></GridViewColumn>
+                    <GridViewColumn Header="Stopień" DisplayMemberBinding="{Binding Degree}" model:GridViewSort.PropertyName="Degree"></GridViewColumn>
+                    <GridViewColumn Header="Telefon" DisplayMemberBinding="{Binding Phone}" model:GridViewSort.PropertyName="Phone"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Margin="10,5,10,5" Command="{Binding AddFirefighterCommand}" Visibility="{Binding Visibility}">Dodaj strażaka</Button>
+                <Button Margin="10,5,10,5" Command="{Binding EditFirefighterCommand}" Visibility="{Binding Visibility}">Edytuj strażaka</Button>
+                <Button Margin="10,5,10,5" Command="{Binding RemoveFirefigterCommand}" Visibility="{Binding Visibility}">Usuń strażaka</Button>
+               
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Margin="10,5,10,5" Command="{Binding CancelCommand}" b:CloseOnClickBehaviour.IsEnabled="True">Powrót</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,146 @@
+c:\users\lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\OSP.exe.config
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\OSP.exe
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\OSP.pdb
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\EntityFramework.dll
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\System.Data.SQLite.dll
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\EntityFramework.xml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\bin\Debug\System.Data.SQLite.xml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\OSP.csprojResolveAssemblyReference.cache
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\MainWindow.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\ActionTypeView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\ActionView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\CarView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\CourseView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\FirefighterMenuView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\FirefighterView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\ItemView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\LoginView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\MainView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\PermissionView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\RaportView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\App.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\OSP_MarkupCompile.cache
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\OSP_MarkupCompile.lref
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\App.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\MainWindow.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\ActionTypeView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\ActionView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\CarView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\CourseView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\FirefighterMenuView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\FirefighterView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\ItemView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\LoginView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\MainView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\PermissionView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\RaportView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\OSP.g.resources
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\OSP.Properties.Resources.resources
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\OSP.csproj.GenerateResource.Cache
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\OSP.exe
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\OSP.pdb
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\ActionMenuView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\ActionTypeMenuView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\CarMenuView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\CourseMenuView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\ItemMenuView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\PermissionMenuView.g.cs
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\ActionMenuView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\ActionTypeMenuView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\CarMenuView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\CourseMenuView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\ItemMenuView.baml
+C:\Users\Lazerek\documents\visual studio 2015\Projects\OSP\OSP\obj\Debug\View\PermissionMenuView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\MainWindow.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\ActionMenuView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\ActionTypeMenuView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\ActionTypeView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\ActionView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\CarMenuView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\CarView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\CourseMenuView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\CourseView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\FirefighterMenuView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\FirefighterView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\LoginView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\MainView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\PermissionMenuView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\PermissionView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\RaportMenuView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\RaportView.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\RaportView2.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\App.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\OSP_MarkupCompile.cache
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\OSP_MarkupCompile.lref
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\App.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\MainWindow.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\ActionMenuView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\ActionTypeMenuView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\ActionTypeView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\ActionView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\CarMenuView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\CarView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\CourseMenuView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\CourseView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\FirefighterMenuView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\FirefighterView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\LoginView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\MainView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\PermissionMenuView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\PermissionView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\RaportMenuView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\RaportView.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\View\RaportView2.baml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\OSP.g.resources
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\OSP.Properties.Resources.resources
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\OSP.csproj.GenerateResource.Cache
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\OSP.exe
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\OSP.pdb
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\OSP.csprojResolveAssemblyReference.cache
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\OSP.exe.config
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\OSP.exe.manifest
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\OSP.application
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\OSP.exe
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\OSP.pdb
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\EntityFramework.dll
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\System.Data.SQLite.dll
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\EntityFramework.xml
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Lazerek\Desktop\OSP\OSP\bin\Debug\System.Data.SQLite.xml
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\OSP.exe.manifest
+C:\Users\Lazerek\Desktop\OSP\OSP\obj\Debug\OSP.application

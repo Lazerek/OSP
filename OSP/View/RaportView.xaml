@@ -1,0 +1,44 @@
+﻿<Window x:Class="OSP.View.RaportView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OSP.View"
+        xmlns:behaviour="clr-namespace:OSP.Behaviour"
+        mc:Ignorable="d"
+        Title="Raport zdarzeń" Height="300" Width="300"
+        DataContext="{Binding RaportViewModel, Source={StaticResource Locator}}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <TextBlock Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" FontSize="20">Raport zdarzeń</TextBlock>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <StackPanel HorizontalAlignment="Center">
+                <TextBlock Margin="10" TextAlignment="Center">Okres:</TextBlock>
+                <TextBlock Margin="10" TextAlignment="Center">Liczba wyjazdów:</TextBlock>
+                <TextBlock Margin="10" TextAlignment="Center">Łączny czas:</TextBlock>
+                <TextBlock Margin="10" TextAlignment="Center">Łącznie kilometrów:</TextBlock>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <StackPanel HorizontalAlignment="Center">
+                <TextBlock Margin="10" TextAlignment="Center" Text="{Binding Period}"></TextBlock>
+                <TextBlock Margin="10" TextAlignment="Center" Text="{Binding NumberOfActions}"></TextBlock>
+                <TextBlock Margin="10" TextAlignment="Center" Text="{Binding TimeOfActions}"></TextBlock>
+                <TextBlock Margin="10" TextAlignment="Center" Text="{Binding NumberOfKM}"></TextBlock>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="0" ColumnSpan="2">
+            <Button Width="200" Height="25" behaviour:CloseOnClickBehaviour.IsEnabled="True">Powrót</Button>
+        </Grid>
+    </Grid>
+</Window>

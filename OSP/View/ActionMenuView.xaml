@@ -1,0 +1,49 @@
+﻿<Window x:Class="OSP.View.ActionMenuView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OSP.View"
+        xmlns:behaviour="clr-namespace:OSP.Behaviour"
+        xmlns:model="clr-namespace:OSP.Model"
+        Title="{Binding WindowTitle}" Height="400" Width="600"
+        DataContext="{Binding ActionMenuViewModel, Source={StaticResource Locator}}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <ListView Margin="10" Name="FirefightersList" ItemsSource="{Binding Actions}" SelectedItem="{Binding SelectedAction}"
+                      IsSynchronizedWithCurrentItem="True"
+                      model:GridViewSort.AutoSort="True">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Id" DisplayMemberBinding="{Binding Id}" model:GridViewSort.PropertyName="Id"></GridViewColumn>
+                        <GridViewColumn Header="Meldunek" DisplayMemberBinding="{Binding NumberOfAction}" model:GridViewSort.PropertyName="NumberOfAction"></GridViewColumn>
+                        <GridViewColumn Header="Data" DisplayMemberBinding="{Binding DateOfAction}" model:GridViewSort.PropertyName="DateOfAction"></GridViewColumn>
+                        <GridViewColumn Header="Czas trwania" DisplayMemberBinding="{Binding MinutesOfAction}" model:GridViewSort.PropertyName="MinutesOfAction"></GridViewColumn>
+                        <GridViewColumn Header="Miejsce" DisplayMemberBinding="{Binding PlaceOfAction}" model:GridViewSort.PropertyName="PlaceOfAction"></GridViewColumn>
+                        <GridViewColumn Header="Liczba km" DisplayMemberBinding="{Binding NumberOfKM}" model:GridViewSort.PropertyName="NumberOfKM"></GridViewColumn>
+                        <GridViewColumn Header="TypAkcji" DisplayMemberBinding="{Binding ActionType.Type}" model:GridViewSort.PropertyName="Type"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Margin="10,5,10,5" Command="{Binding AddActionCommand}" Visibility="{Binding Visibility}">Dodaj akcje</Button>
+                <Button Margin="10,5,10,5" Command="{Binding EditActionCommand}" Visibility="{Binding Visibility}">Edytuj akcje</Button>
+                <Button Margin="10,5,10,5" Command="{Binding RemoveActionCommand}" Visibility="{Binding Visibility}">Usuń akcje</Button>
+
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Margin="10,5,10,5" behaviour:CloseOnClickBehaviour.IsEnabled="True">Powrót</Button>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>

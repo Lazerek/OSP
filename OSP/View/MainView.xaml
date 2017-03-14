@@ -1,0 +1,26 @@
+﻿<Window x:Class="OSP.View.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OSP.View"
+        xmlns:b="clr-namespace:OSP.Behaviour"
+        mc:Ignorable="d"
+        Title="{Binding WindowTitle}" Height="450" Width="300"
+        DataContext="{Binding Main, Source={StaticResource Locator}}"
+        >
+    <Grid>
+        <StackPanel>
+            <TextBlock Margin="10" FontSize="20" TextAlignment="Center">OSP</TextBlock>
+            <Button Margin="10" Command="{Binding OpenActionMenuCommand}">Akcje</Button>
+            <Button Margin="10" Command="{Binding OpenFirefigterMenuCommand}">Strazacy</Button>
+            <Button Margin="10" Command="{Binding OpenCarMenuCommand}">Samochody</Button>
+            <Button Margin="10" Command="{Binding OpenCourseMenuCommand}">Kursy</Button>
+            <Button Margin="10" Command="{Binding OpenPermissionMenuCommand}">Uprawnienia</Button>
+            <Button Margin="10" Command="{Binding OpenActionTypeMenuCommand}">Typy akcji</Button>
+            
+            <Button Margin="10" Command="{Binding OpenRaportViewCommand}">Raporty</Button>
+            <Button Margin="10" VerticalAlignment="Bottom" b:CloseOnClickBehaviour.IsEnabled="True">Wyjście</Button>
+        </StackPanel>
+    </Grid>
+</Window>

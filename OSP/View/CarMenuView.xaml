@@ -1,0 +1,47 @@
+﻿<Window x:Class="OSP.View.CarMenuView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OSP.View"
+        xmlns:b="clr-namespace:OSP.Behaviour"
+        xmlns:model="clr-namespace:OSP.Model"
+        mc:Ignorable="d"
+        Title="{Binding WindowTitle}" Height="400" Width="600"
+        DataContext="{Binding CarMenuViewModel, Source={StaticResource Locator}}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <ListView Margin="10" Name="CarsList" ItemsSource="{Binding Cars}" SelectedItem="{Binding SelectedCar}"
+                      IsSynchronizedWithCurrentItem="True"
+                      model:GridViewSort.AutoSort="True">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Id" DisplayMemberBinding="{Binding Id}" model:GridViewSort.PropertyName="Id"></GridViewColumn>
+                        <GridViewColumn Header="Rodzaj Wozu" DisplayMemberBinding="{Binding CarType}" model:GridViewSort.PropertyName="CarType"></GridViewColumn>
+                        <GridViewColumn Header="Numer Wozu" DisplayMemberBinding="{Binding CarNumber}" model:GridViewSort.PropertyName="CarNumber"></GridViewColumn>
+                        <GridViewColumn Header="Pojemność wody" DisplayMemberBinding="{Binding WaterVolume}" model:GridViewSort.PropertyName="WaterVolume"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Margin="10,5,10,5" Command="{Binding AddCarCommand}" Visibility="{Binding Visibility}">Dodaj Wóz</Button>
+                <Button Margin="10,5,10,5" Command="{Binding EditCarCommand}" Visibility="{Binding Visibility}">Edytuj Wóz</Button>
+                <Button Margin="10,5,10,5" Command="{Binding RemoveCarCommand}" Visibility="{Binding Visibility}">Usuń Wóz</Button>
+
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Margin="10,5,10,5"  b:CloseOnClickBehaviour.IsEnabled="True">Powrót</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,36 @@
+﻿<Window x:Class="OSP.View.RaportView2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OSP.View"
+        xmlns:model="clr-namespace:OSP.Model"
+        mc:Ignorable="d"
+        Title="Raport rodzajów zdarzeń" Height="300" Width="300"
+        DataContext="{Binding RaportViewModel2, Source={StaticResource Locator}}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <TextBlock Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" FontSize="20">Raport typów zdarzeń</TextBlock>
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBlock Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Text="{Binding Period}"></TextBlock>
+        </Grid>
+        <Grid Grid.Row="2">
+            <ListView Margin="10" Name="CarsList" ItemsSource="{Binding MyList}" IsSynchronizedWithCurrentItem="True"
+                      model:GridViewSort.AutoSort="True">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Typ zdarzenia" DisplayMemberBinding="{Binding Type}" model:GridViewSort.PropertyName="Type"></GridViewColumn>
+                        <GridViewColumn Header="Liczba wystąpień" DisplayMemberBinding="{Binding Number}" model:GridViewSort.PropertyName="Number"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+        </Grid>
+</Window>
